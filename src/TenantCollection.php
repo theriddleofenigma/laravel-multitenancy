@@ -1,9 +1,9 @@
 <?php
 
-namespace Spatie\Multitenancy;
+namespace Enigma\Multitenancy;
 
 use Illuminate\Database\Eloquent\Collection;
-use Spatie\Multitenancy\Models\Tenant;
+use Enigma\Multitenancy\Models\Tenant;
 
 class TenantCollection extends Collection
 {

@@ -1,6 +1,6 @@
 <?php
 
-namespace Spatie\Multitenancy\Tests\Feature\Models;
+namespace Enigma\Multitenancy\Tests\Feature\Models;
 
 use Illuminate\Support\Facades\Event;
 use Spatie\Multitenancy\Events\ForgettingCurrentTenantEvent;

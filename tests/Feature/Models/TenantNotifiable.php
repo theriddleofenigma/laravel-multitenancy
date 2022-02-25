@@ -1,9 +1,9 @@
 <?php
 
-namespace Spatie\Multitenancy\Tests\Feature\Models;
+namespace Enigma\Multitenancy\Tests\Feature\Models;
 
 use Illuminate\Notifications\Notifiable;
-use Spatie\Multitenancy\Models\Tenant;
+use Enigma\Multitenancy\Models\Tenant;
 
 class TenantNotifiable extends Tenant
 {

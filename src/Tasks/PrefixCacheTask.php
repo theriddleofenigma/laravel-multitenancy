@@ -1,8 +1,8 @@
 <?php
 
-namespace Spatie\Multitenancy\Tasks;
+namespace Enigma\Multitenancy\Tasks;
 
-use Spatie\Multitenancy\Models\Tenant;
+use Enigma\Multitenancy\Models\Tenant;
 
 class PrefixCacheTask implements SwitchTenantTask
 {

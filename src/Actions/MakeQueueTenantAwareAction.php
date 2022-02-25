@@ -1,15 +1,15 @@
 <?php
 
-namespace Spatie\Multitenancy\Actions;
+namespace Enigma\Multitenancy\Actions;
 
 use Illuminate\Queue\Events\JobProcessing;
 use Illuminate\Queue\Events\JobRetryRequested;
 use Illuminate\Support\Arr;
-use Spatie\Multitenancy\Exceptions\CurrentTenantCouldNotBeDeterminedInTenantAwareJob;
-use Spatie\Multitenancy\Jobs\NotTenantAware;
-use Spatie\Multitenancy\Jobs\TenantAware;
-use Spatie\Multitenancy\Models\Concerns\UsesTenantModel;
-use Spatie\Multitenancy\Models\Tenant;
+use Enigma\Multitenancy\Exceptions\CurrentTenantCouldNotBeDeterminedInTenantAwareJob;
+use Enigma\Multitenancy\Jobs\NotTenantAware;
+use Enigma\Multitenancy\Jobs\TenantAware;
+use Enigma\Multitenancy\Models\Concerns\UsesTenantModel;
+use Enigma\Multitenancy\Models\Tenant;
 
 class MakeQueueTenantAwareAction
 {

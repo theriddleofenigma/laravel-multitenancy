@@ -1,10 +1,10 @@
 <?php
 
-namespace Spatie\Multitenancy\Tests\Feature\Tasks;
+namespace Enigma\Multitenancy\Tests\Feature\Tasks;
 
-use Spatie\Multitenancy\Models\Tenant;
-use Spatie\Multitenancy\Tasks\PrefixCacheTask;
-use Spatie\Multitenancy\Tests\TestCase;
+use Enigma\Multitenancy\Models\Tenant;
+use Enigma\Multitenancy\Tasks\PrefixCacheTask;
+use Enigma\Multitenancy\Tests\TestCase;
 
 class PrefixCacheTaskTest extends TestCase
 {

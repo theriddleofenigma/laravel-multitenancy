@@ -1,10 +1,10 @@
 <?php
 
-namespace Spatie\Multitenancy\Tests\Feature\Commands\TestClasses;
+namespace Enigma\Multitenancy\Tests\Feature\Commands\TestClasses;
 
 use Illuminate\Console\Command;
-use Spatie\Multitenancy\Commands\Concerns\TenantAware;
-use Spatie\Multitenancy\Models\Tenant;
+use Enigma\Multitenancy\Commands\Concerns\TenantAware;
+use Enigma\Multitenancy\Models\Tenant;
 
 class TenantNoopCommand extends Command
 {

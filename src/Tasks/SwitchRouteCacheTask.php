@@ -1,9 +1,9 @@
 <?php
 
-namespace Spatie\Multitenancy\Tasks;
+namespace Enigma\Multitenancy\Tasks;
 
 use Illuminate\Support\Env;
-use Spatie\Multitenancy\Models\Tenant;
+use Enigma\Multitenancy\Models\Tenant;
 
 class SwitchRouteCacheTask implements SwitchTenantTask
 {

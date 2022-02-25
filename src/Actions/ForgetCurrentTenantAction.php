@@ -1,12 +1,12 @@
 <?php
 
-namespace Spatie\Multitenancy\Actions;
+namespace Enigma\Multitenancy\Actions;
 
-use Spatie\Multitenancy\Events\ForgettingCurrentTenantEvent;
-use Spatie\Multitenancy\Events\ForgotCurrentTenantEvent;
-use Spatie\Multitenancy\Models\Tenant;
-use Spatie\Multitenancy\Tasks\SwitchTenantTask;
-use Spatie\Multitenancy\Tasks\TasksCollection;
+use Enigma\Multitenancy\Events\ForgettingCurrentTenantEvent;
+use Enigma\Multitenancy\Events\ForgotCurrentTenantEvent;
+use Enigma\Multitenancy\Models\Tenant;
+use Enigma\Multitenancy\Tasks\SwitchTenantTask;
+use Enigma\Multitenancy\Tasks\TasksCollection;
 
 class ForgetCurrentTenantAction
 {

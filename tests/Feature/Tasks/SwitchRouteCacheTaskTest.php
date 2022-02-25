@@ -1,10 +1,10 @@
 <?php
 
-namespace Spatie\Multitenancy\Tests\Feature\Tasks;
+namespace Enigma\Multitenancy\Tests\Feature\Tasks;
 
-use Spatie\Multitenancy\Models\Tenant;
-use Spatie\Multitenancy\Tasks\SwitchRouteCacheTask;
-use Spatie\Multitenancy\Tests\TestCase;
+use Enigma\Multitenancy\Models\Tenant;
+use Enigma\Multitenancy\Tasks\SwitchRouteCacheTask;
+use Enigma\Multitenancy\Tests\TestCase;
 
 class SwitchRouteCacheTaskTest extends TestCase
 {

@@ -1,6 +1,6 @@
 <?php
 
-namespace Spatie\Multitenancy\Tests;
+namespace Enigma\Multitenancy\Tests;
 
 use Illuminate\Console\Application as Artisan;
 use Illuminate\Database\Eloquent\Factories\Factory;
@@ -8,9 +8,9 @@ use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Facades\View;
 use Orchestra\Testbench\Concerns\WithLaravelMigrations;
 use Orchestra\Testbench\TestCase as Orchestra;
-use Spatie\Multitenancy\Models\Tenant;
-use Spatie\Multitenancy\MultitenancyServiceProvider;
-use Spatie\Multitenancy\Tests\Feature\Commands\TestClasses\TenantNoopCommand;
+use Enigma\Multitenancy\Models\Tenant;
+use Enigma\Multitenancy\MultitenancyServiceProvider;
+use Enigma\Multitenancy\Tests\Feature\Commands\TestClasses\TenantNoopCommand;
 
 abstract class TestCase extends Orchestra
 {

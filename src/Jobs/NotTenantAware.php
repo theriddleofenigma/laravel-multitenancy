@@ -1,6 +1,6 @@
 <?php
 
-namespace Spatie\Multitenancy\Jobs;
+namespace Enigma\Multitenancy\Jobs;
 
 interface NotTenantAware
 {

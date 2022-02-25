@@ -1,10 +1,10 @@
 <?php
 
-namespace Spatie\Multitenancy\Tests\Feature\Tasks\TestClasses;
+namespace Enigma\Multitenancy\Tests\Feature\Tasks\TestClasses;
 
 use Illuminate\Cache\Repository;
-use Spatie\Multitenancy\Models\Tenant;
-use Spatie\Multitenancy\Tasks\SwitchTenantTask;
+use Enigma\Multitenancy\Models\Tenant;
+use Enigma\Multitenancy\Tasks\SwitchTenantTask;
 
 class DummyTask implements SwitchTenantTask
 {

@@ -1,9 +1,9 @@
 <?php
 
-namespace Spatie\Multitenancy\Actions;
+namespace Enigma\Multitenancy\Actions;
 
 use Illuminate\Support\Facades\Artisan;
-use Spatie\Multitenancy\Models\Tenant;
+use Enigma\Multitenancy\Models\Tenant;
 use Symfony\Component\Console\Output\OutputInterface;
 
 class MigrateTenantAction

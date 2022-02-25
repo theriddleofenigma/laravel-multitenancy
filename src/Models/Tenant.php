@@ -1,13 +1,13 @@
 <?php
 
-namespace Spatie\Multitenancy\Models;
+namespace Enigma\Multitenancy\Models;
 
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
-use Spatie\Multitenancy\Actions\ForgetCurrentTenantAction;
-use Spatie\Multitenancy\Actions\MakeTenantCurrentAction;
-use Spatie\Multitenancy\Models\Concerns\UsesLandlordConnection;
-use Spatie\Multitenancy\TenantCollection;
+use Enigma\Multitenancy\Actions\ForgetCurrentTenantAction;
+use Enigma\Multitenancy\Actions\MakeTenantCurrentAction;
+use Enigma\Multitenancy\Models\Concerns\UsesLandlordConnection;
+use Enigma\Multitenancy\TenantCollection;
 
 class Tenant extends Model
 {

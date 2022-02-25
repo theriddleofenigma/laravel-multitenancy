@@ -1,6 +1,6 @@
 <?php
 
-namespace Spatie\Multitenancy\Exceptions;
+namespace Enigma\Multitenancy\Exceptions;
 
 use Exception;
 

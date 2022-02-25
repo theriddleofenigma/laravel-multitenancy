@@ -1,8 +1,8 @@
 <?php
 
-namespace Spatie\Multitenancy\Models\Concerns;
+namespace Enigma\Multitenancy\Models\Concerns;
 
-use Spatie\Multitenancy\Concerns\UsesMultitenancyConfig;
+use Enigma\Multitenancy\Concerns\UsesMultitenancyConfig;
 
 trait UsesLandlordConnection
 {

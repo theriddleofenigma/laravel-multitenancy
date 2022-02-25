@@ -1,10 +1,10 @@
 <?php
 
-namespace Spatie\Multitenancy\Tests\Feature\Commands;
+namespace Enigma\Multitenancy\Tests\Feature\Commands;
 
-use Spatie\Multitenancy\Models\Tenant;
-use Spatie\Multitenancy\Tasks\SwitchTenantDatabaseTask;
-use Spatie\Multitenancy\Tests\TestCase;
+use Enigma\Multitenancy\Models\Tenant;
+use Enigma\Multitenancy\Tasks\SwitchTenantDatabaseTask;
+use Enigma\Multitenancy\Tests\TestCase;
 
 class TenantAwareCommandTest extends TestCase
 {

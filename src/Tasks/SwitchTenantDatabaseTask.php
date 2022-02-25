@@ -1,11 +1,11 @@
 <?php
 
-namespace Spatie\Multitenancy\Tasks;
+namespace Enigma\Multitenancy\Tasks;
 
 use Illuminate\Support\Facades\DB;
-use Spatie\Multitenancy\Concerns\UsesMultitenancyConfig;
-use Spatie\Multitenancy\Exceptions\InvalidConfiguration;
-use Spatie\Multitenancy\Models\Tenant;
+use Enigma\Multitenancy\Concerns\UsesMultitenancyConfig;
+use Enigma\Multitenancy\Exceptions\InvalidConfiguration;
+use Enigma\Multitenancy\Models\Tenant;
 
 class SwitchTenantDatabaseTask implements SwitchTenantTask
 {

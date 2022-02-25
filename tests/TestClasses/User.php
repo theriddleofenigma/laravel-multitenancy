@@ -1,6 +1,6 @@
 <?php
 
-namespace Spatie\Multitenancy\Tests\TestClasses;
+namespace Enigma\Multitenancy\Tests\TestClasses;
 
 use Illuminate\Foundation\Auth\User as BaseUser;
 use Spatie\Multitenancy\Models\Concerns\UsesTenantConnection;

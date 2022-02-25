@@ -1,14 +1,14 @@
 <?php
 
-namespace Spatie\Multitenancy;
+namespace Enigma\Multitenancy;
 
 use Illuminate\Contracts\Container\Container;
-use Spatie\Multitenancy\Actions\MakeQueueTenantAwareAction;
-use Spatie\Multitenancy\Concerns\UsesMultitenancyConfig;
-use Spatie\Multitenancy\Models\Concerns\UsesTenantModel;
-use Spatie\Multitenancy\Models\Tenant;
-use Spatie\Multitenancy\Tasks\TasksCollection;
-use Spatie\Multitenancy\TenantFinder\TenantFinder;
+use Enigma\Multitenancy\Actions\MakeQueueTenantAwareAction;
+use Enigma\Multitenancy\Concerns\UsesMultitenancyConfig;
+use Enigma\Multitenancy\Models\Concerns\UsesTenantModel;
+use Enigma\Multitenancy\Models\Tenant;
+use Enigma\Multitenancy\Tasks\TasksCollection;
+use Enigma\Multitenancy\TenantFinder\TenantFinder;
 
 class Multitenancy
 {

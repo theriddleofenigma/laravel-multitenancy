@@ -1,12 +1,12 @@
 <?php
 
-namespace Spatie\Multitenancy\Tests\Feature\Tasks;
+namespace Enigma\Multitenancy\Tests\Feature\Tasks;
 
 use Illuminate\Support\Facades\DB;
-use Spatie\Multitenancy\Exceptions\InvalidConfiguration;
-use Spatie\Multitenancy\Models\Tenant;
-use Spatie\Multitenancy\Tasks\SwitchTenantDatabaseTask;
-use Spatie\Multitenancy\Tests\TestCase;
+use Enigma\Multitenancy\Exceptions\InvalidConfiguration;
+use Enigma\Multitenancy\Models\Tenant;
+use Enigma\Multitenancy\Tasks\SwitchTenantDatabaseTask;
+use Enigma\Multitenancy\Tests\TestCase;
 
 class SwitchTenantDatabaseTest extends TestCase
 {

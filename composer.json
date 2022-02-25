@@ -31,14 +31,13 @@
     },
     "autoload": {
         "psr-4": {
-            "Spatie\\Multitenancy\\": "src",
-            "Spatie\\Multitenancy\\Database\\Factories\\": "database/factories"
-
+            "Enigma\\Multitenancy\\": "src",
+            "Enigma\\Multitenancy\\Database\\Factories\\": "database/factories"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Spatie\\Multitenancy\\Tests\\": "tests"
+            "Enigma\\Multitenancy\\Tests\\": "tests"
         },
         "classmap": [
             "tests/database/migrations/landlord",
@@ -56,10 +55,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Spatie\\Multitenancy\\MultitenancyServiceProvider"
+                "Enigma\\Multitenancy\\MultitenancyServiceProvider"
             ],
             "aliases": {
-                "Multitenancy": "Spatie\\Multitenancy\\MultitenancyFacade"
+                "Multitenancy": "Enigma\\Multitenancy\\MultitenancyFacade"
             }
         }
     },

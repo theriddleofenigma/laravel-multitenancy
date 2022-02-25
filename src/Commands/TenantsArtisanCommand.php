@@ -1,13 +1,13 @@
 <?php
 
-namespace Spatie\Multitenancy\Commands;
+namespace Enigma\Multitenancy\Commands;
 
 use Illuminate\Console\Command;
 use Illuminate\Support\Facades\Artisan;
-use Spatie\Multitenancy\Commands\Concerns\TenantAware;
-use Spatie\Multitenancy\Concerns\UsesMultitenancyConfig;
-use Spatie\Multitenancy\Models\Concerns\UsesTenantModel;
-use Spatie\Multitenancy\Models\Tenant;
+use Enigma\Multitenancy\Commands\Concerns\TenantAware;
+use Enigma\Multitenancy\Concerns\UsesMultitenancyConfig;
+use Enigma\Multitenancy\Models\Concerns\UsesTenantModel;
+use Enigma\Multitenancy\Models\Tenant;
 
 class TenantsArtisanCommand extends Command
 {

@@ -1,11 +1,11 @@
 <?php
 
-namespace Spatie\Multitenancy\Tests\Feature\Http\Middleware;
+namespace Enigma\Multitenancy\Tests\Feature\Http\Middleware;
 
 use Illuminate\Support\Facades\Route;
-use Spatie\Multitenancy\Http\Middleware\EnsureValidTenantSession;
-use Spatie\Multitenancy\Models\Tenant;
-use Spatie\Multitenancy\Tests\TestCase;
+use Enigma\Multitenancy\Http\Middleware\EnsureValidTenantSession;
+use Enigma\Multitenancy\Models\Tenant;
+use Enigma\Multitenancy\Tests\TestCase;
 use Symfony\Component\HttpFoundation\Response;
 
 class EnsureValidTenantSessionTest extends TestCase

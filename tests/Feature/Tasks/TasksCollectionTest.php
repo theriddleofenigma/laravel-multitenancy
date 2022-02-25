@@ -1,10 +1,10 @@
 <?php
 
-namespace Spatie\Multitenancy\Tests\Feature\Tasks;
+namespace Enigma\Multitenancy\Tests\Feature\Tasks;
 
-use Spatie\Multitenancy\Tasks\TasksCollection;
-use Spatie\Multitenancy\Tests\Feature\Tasks\TestClasses\DummyTask;
-use Spatie\Multitenancy\Tests\TestCase;
+use Enigma\Multitenancy\Tasks\TasksCollection;
+use Enigma\Multitenancy\Tests\Feature\Tasks\TestClasses\DummyTask;
+use Enigma\Multitenancy\Tests\TestCase;
 
 class TasksCollectionTest extends TestCase
 {

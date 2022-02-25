@@ -1,6 +1,6 @@
 <?php
 
-namespace Spatie\Multitenancy\Database\Factories;
+namespace Enigma\Multitenancy\Database\Factories;
 
 use Illuminate\Database\Eloquent\Factories\Factory;
 use Illuminate\Support\Str;

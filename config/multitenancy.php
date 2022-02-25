@@ -4,11 +4,11 @@ use Illuminate\Broadcasting\BroadcastEvent;
 use Illuminate\Events\CallQueuedListener;
 use Illuminate\Mail\SendQueuedMailable;
 use Illuminate\Notifications\SendQueuedNotifications;
-use Spatie\Multitenancy\Actions\ForgetCurrentTenantAction;
-use Spatie\Multitenancy\Actions\MakeQueueTenantAwareAction;
-use Spatie\Multitenancy\Actions\MakeTenantCurrentAction;
-use Spatie\Multitenancy\Actions\MigrateTenantAction;
-use Spatie\Multitenancy\Models\Tenant;
+use Enigma\Multitenancy\Actions\ForgetCurrentTenantAction;
+use Enigma\Multitenancy\Actions\MakeQueueTenantAwareAction;
+use Enigma\Multitenancy\Actions\MakeTenantCurrentAction;
+use Enigma\Multitenancy\Actions\MigrateTenantAction;
+use Enigma\Multitenancy\Models\Tenant;
 
 return [
     /*

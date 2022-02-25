@@ -1,8 +1,8 @@
 <?php
 
-namespace Spatie\Multitenancy;
+namespace Enigma\Multitenancy;
 
-use Spatie\Multitenancy\Models\Tenant;
+use Enigma\Multitenancy\Models\Tenant;
 
 class Landlord
 {

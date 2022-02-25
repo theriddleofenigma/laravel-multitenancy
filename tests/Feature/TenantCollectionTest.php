@@ -1,10 +1,10 @@
 <?php
 
-namespace Spatie\Multitenancy\Tests\Feature;
+namespace Enigma\Multitenancy\Tests\Feature;
 
-use Spatie\Multitenancy\Models\Tenant;
-use Spatie\Multitenancy\TenantCollection;
-use Spatie\Multitenancy\Tests\TestCase;
+use Enigma\Multitenancy\Models\Tenant;
+use Enigma\Multitenancy\TenantCollection;
+use Enigma\Multitenancy\Tests\TestCase;
 
 class TenantCollectionTest extends TestCase
 {

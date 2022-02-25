@@ -1,6 +1,6 @@
 <?php
 
-namespace Spatie\Multitenancy\Tests\Feature\TenantFinder;
+namespace Enigma\Multitenancy\Tests\Feature\TenantFinder;
 
 use Illuminate\Http\Request;
 use Spatie\Multitenancy\Models\Tenant;

@@ -1,12 +1,12 @@
 <?php
 
-namespace Spatie\Multitenancy\Actions;
+namespace Enigma\Multitenancy\Actions;
 
-use Spatie\Multitenancy\Events\MadeTenantCurrentEvent;
-use Spatie\Multitenancy\Events\MakingTenantCurrentEvent;
-use Spatie\Multitenancy\Models\Tenant;
-use Spatie\Multitenancy\Tasks\SwitchTenantTask;
-use Spatie\Multitenancy\Tasks\TasksCollection;
+use Enigma\Multitenancy\Events\MadeTenantCurrentEvent;
+use Enigma\Multitenancy\Events\MakingTenantCurrentEvent;
+use Enigma\Multitenancy\Models\Tenant;
+use Enigma\Multitenancy\Tasks\SwitchTenantTask;
+use Enigma\Multitenancy\Tasks\TasksCollection;
 
 class MakeTenantCurrentAction
 {

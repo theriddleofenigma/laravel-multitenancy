@@ -1,9 +1,9 @@
 <?php
 
-namespace Spatie\Multitenancy\TenantFinder;
+namespace Enigma\Multitenancy\TenantFinder;
 
 use Illuminate\Http\Request;
-use Spatie\Multitenancy\Models\Tenant;
+use Enigma\Multitenancy\Models\Tenant;
 
 abstract class TenantFinder
 {

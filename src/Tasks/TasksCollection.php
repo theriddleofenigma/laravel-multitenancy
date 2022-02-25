@@ -1,6 +1,6 @@
 <?php
 
-namespace Spatie\Multitenancy\Tasks;
+namespace Enigma\Multitenancy\Tasks;
 
 use Illuminate\Support\Collection;
 

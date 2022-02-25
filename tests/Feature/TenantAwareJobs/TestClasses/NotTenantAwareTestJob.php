@@ -1,6 +1,6 @@
 <?php
 
-namespace Spatie\Multitenancy\Tests\Feature\TenantAwareJobs\TestClasses;
+namespace Enigma\Multitenancy\Tests\Feature\TenantAwareJobs\TestClasses;
 
 use Spatie\Multitenancy\Jobs\NotTenantAware;
 

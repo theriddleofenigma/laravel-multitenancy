@@ -1,10 +1,10 @@
 <?php
 
-namespace Spatie\Multitenancy\Commands\Concerns;
+namespace Enigma\Multitenancy\Commands\Concerns;
 
 use Illuminate\Support\Arr;
-use Spatie\Multitenancy\Concerns\UsesMultitenancyConfig;
-use Spatie\Multitenancy\Models\Concerns\UsesTenantModel;
+use Enigma\Multitenancy\Concerns\UsesMultitenancyConfig;
+use Enigma\Multitenancy\Models\Concerns\UsesTenantModel;
 use Symfony\Component\Console\Input\InputInterface;
 use Symfony\Component\Console\Output\OutputInterface;
 

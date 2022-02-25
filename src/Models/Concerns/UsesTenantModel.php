@@ -1,8 +1,8 @@
 <?php
 
-namespace Spatie\Multitenancy\Models\Concerns;
+namespace Enigma\Multitenancy\Models\Concerns;
 
-use Spatie\Multitenancy\Models\Tenant;
+use Enigma\Multitenancy\Models\Tenant;
 
 trait UsesTenantModel
 {

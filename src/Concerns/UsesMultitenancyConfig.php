@@ -1,9 +1,9 @@
 <?php
 
-namespace Spatie\Multitenancy\Concerns;
+namespace Enigma\Multitenancy\Concerns;
 
 use Illuminate\Support\Arr;
-use Spatie\Multitenancy\Exceptions\InvalidConfiguration;
+use Enigma\Multitenancy\Exceptions\InvalidConfiguration;
 
 trait UsesMultitenancyConfig
 {

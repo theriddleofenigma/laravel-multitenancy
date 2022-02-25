@@ -1,8 +1,8 @@
 <?php
 
-namespace Spatie\Multitenancy\Events;
+namespace Enigma\Multitenancy\Events;
 
-use Spatie\Multitenancy\Models\Tenant;
+use Enigma\Multitenancy\Models\Tenant;
 
 class ForgotCurrentTenantEvent
 {

@@ -1,9 +1,9 @@
 <?php
 
-namespace Spatie\Multitenancy\Exceptions;
+namespace Enigma\Multitenancy\Exceptions;
 
 use Exception;
-use Spatie\Multitenancy\Tasks\SwitchTenantTask;
+use Enigma\Multitenancy\Tasks\SwitchTenantTask;
 
 class TaskCannotBeExecuted extends Exception
 {

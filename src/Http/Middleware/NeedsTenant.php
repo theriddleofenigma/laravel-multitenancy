@@ -1,10 +1,10 @@
 <?php
 
-namespace Spatie\Multitenancy\Http\Middleware;
+namespace Enigma\Multitenancy\Http\Middleware;
 
 use Closure;
-use Spatie\Multitenancy\Exceptions\NoCurrentTenant;
-use Spatie\Multitenancy\Models\Concerns\UsesTenantModel;
+use Enigma\Multitenancy\Exceptions\NoCurrentTenant;
+use Enigma\Multitenancy\Models\Concerns\UsesTenantModel;
 
 class NeedsTenant
 {

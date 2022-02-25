@@ -1,9 +1,9 @@
 <?php
 
-namespace Spatie\Multitenancy\Http\Middleware;
+namespace Enigma\Multitenancy\Http\Middleware;
 
 use Closure;
-use Spatie\Multitenancy\Concerns\UsesMultitenancyConfig;
+use Enigma\Multitenancy\Concerns\UsesMultitenancyConfig;
 use Symfony\Component\HttpFoundation\Response;
 
 class EnsureValidTenantSession

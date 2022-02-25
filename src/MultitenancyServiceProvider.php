@@ -1,15 +1,15 @@
 <?php
 
-namespace Spatie\Multitenancy;
+namespace Enigma\Multitenancy;
 
 use Illuminate\Support\Facades\Event;
 use Laravel\Octane\Events\RequestReceived as OctaneRequestReceived;
 use Laravel\Octane\Events\RequestTerminated as OctaneRequestTerminated;
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;
-use Spatie\Multitenancy\Commands\TenantsArtisanCommand;
-use Spatie\Multitenancy\Concerns\UsesMultitenancyConfig;
-use Spatie\Multitenancy\Models\Concerns\UsesTenantModel;
+use Enigma\Multitenancy\Commands\TenantsArtisanCommand;
+use Enigma\Multitenancy\Concerns\UsesMultitenancyConfig;
+use Enigma\Multitenancy\Models\Concerns\UsesTenantModel;
 
 class MultitenancyServiceProvider extends PackageServiceProvider
 {

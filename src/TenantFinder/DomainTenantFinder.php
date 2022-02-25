@@ -1,10 +1,10 @@
 <?php
 
-namespace Spatie\Multitenancy\TenantFinder;
+namespace Enigma\Multitenancy\TenantFinder;
 
 use Illuminate\Http\Request;
-use Spatie\Multitenancy\Models\Concerns\UsesTenantModel;
-use Spatie\Multitenancy\Models\Tenant;
+use Enigma\Multitenancy\Models\Concerns\UsesTenantModel;
+use Enigma\Multitenancy\Models\Tenant;
 
 class DomainTenantFinder extends TenantFinder
 {

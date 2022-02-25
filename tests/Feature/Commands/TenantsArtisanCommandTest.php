@@ -1,6 +1,6 @@
 <?php
 
-namespace Spatie\Multitenancy\Tests\Feature\Commands;
+namespace Enigma\Multitenancy\Tests\Feature\Commands;
 
 use Illuminate\Support\Facades\Schema;
 use Spatie\Multitenancy\Models\Tenant;
